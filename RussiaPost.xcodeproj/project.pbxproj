@@ -80,7 +80,7 @@
 		029E91732A4B9B7000E4AF3B /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		029E91752A4B9CE500E4AF3B /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
 		029E91762A4B9CE500E4AF3B /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
-		029E91782A4BA04700E4AF3B /* sveta_kakala.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sveta_kakala.mp4; path = ../sveta_kakala.mp4; sourceTree = SOURCE_ROOT; };
+		029E91782A4BA04700E4AF3B /* sveta_kakala.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sveta_kakala.mp4; path = RussiaPost/sveta_kakala.mp4; sourceTree = SOURCE_ROOT; };
 		029E91792A4BA37A00E4AF3B /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
 		029E917A2A4BA37A00E4AF3B /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
 		029E917E2A4BAA9B00E4AF3B /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
