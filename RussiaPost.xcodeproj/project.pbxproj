@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02736F902A4C798E006B4197 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 02736F8F2A4C798E006B4197 /* Base64.m */; };
+		029E91172A4AFC9D00E4AF3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E91162A4AFC9D00E4AF3B /* Foundation.framework */; };
+		029E91192A4AFC9D00E4AF3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E91182A4AFC9D00E4AF3B /* CoreGraphics.framework */; };
+		029E911B2A4AFC9D00E4AF3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E911A2A4AFC9D00E4AF3B /* UIKit.framework */; };
+		029E91232A4AFC9D00E4AF3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91222A4AFC9D00E4AF3B /* main.m */; };
+		029E91272A4AFC9D00E4AF3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91262A4AFC9D00E4AF3B /* AppDelegate.m */; };
+		029E91322A4AFC9D00E4AF3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029E91312A4AFC9D00E4AF3B /* Images.xcassets */; };
+		029E91392A4AFC9D00E4AF3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E91382A4AFC9D00E4AF3B /* XCTest.framework */; };
+		029E913A2A4AFC9D00E4AF3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E91162A4AFC9D00E4AF3B /* Foundation.framework */; };
+		029E913B2A4AFC9D00E4AF3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E911A2A4AFC9D00E4AF3B /* UIKit.framework */; };
+		029E91452A4AFC9D00E4AF3B /* RussiaPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91442A4AFC9D00E4AF3B /* RussiaPostTests.m */; };
+		029E91502A4B07E100E4AF3B /* APICommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E914F2A4B07E100E4AF3B /* APICommunicator.m */; };
+		029E91532A4B095200E4AF3B /* TrackingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91522A4B095200E4AF3B /* TrackingsController.m */; };
+		029E91572A4B162700E4AF3B /* PackageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91562A4B162700E4AF3B /* PackageCell.m */; };
+		029E915A2A4B16A100E4AF3B /* PackageTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91592A4B16A100E4AF3B /* PackageTitleCell.m */; };
+		029E915D2A4B16C900E4AF3B /* PackageMovingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E915C2A4B16C900E4AF3B /* PackageMovingCell.m */; };
+		029E91602A4B171500E4AF3B /* PackageInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E915F2A4B171500E4AF3B /* PackageInfoCell.m */; };
+		029E91632A4B175800E4AF3B /* PackageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91622A4B175800E4AF3B /* PackageController.m */; };
+		029E916E2A4B6CD300E4AF3B /* BarcodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E916D2A4B6CD300E4AF3B /* BarcodeController.m */; };
+		029E91742A4B9B7000E4AF3B /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91732A4B9B7000E4AF3B /* SettingsController.m */; };
+		029E91772A4B9CE500E4AF3B /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E91762A4B9CE500E4AF3B /* MenuController.m */; };
+		029E917B2A4BA37A00E4AF3B /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E917A2A4BA37A00E4AF3B /* AboutController.m */; };
+		029E917C2A4BA6BE00E4AF3B /* sveta_kakala.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 029E91782A4BA04700E4AF3B /* sveta_kakala.mp4 */; };
+		029E917F2A4BAA9B00E4AF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029E917D2A4BAA9B00E4AF3B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029E913C2A4AFC9D00E4AF3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029E910B2A4AFC9D00E4AF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029E91122A4AFC9D00E4AF3B;
+			remoteInfo = RussiaPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02736F8E2A4C798E006B4197 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		02736F8F2A4C798E006B4197 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		029E91132A4AFC9D00E4AF3B /* RussiaPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussiaPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		029E91162A4AFC9D00E4AF3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		029E91182A4AFC9D00E4AF3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		029E911A2A4AFC9D00E4AF3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		029E911E2A4AFC9D00E4AF3B /* RussiaPost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RussiaPost-Info.plist"; sourceTree = "<group>"; };
+		029E91222A4AFC9D00E4AF3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		029E91242A4AFC9D00E4AF3B /* RussiaPost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RussiaPost-Prefix.pch"; sourceTree = "<group>"; };
+		029E91252A4AFC9D00E4AF3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		029E91262A4AFC9D00E4AF3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029E91312A4AFC9D00E4AF3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		029E91372A4AFC9D00E4AF3B /* RussiaPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussiaPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029E91382A4AFC9D00E4AF3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		029E91402A4AFC9D00E4AF3B /* RussiaPostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RussiaPostTests-Info.plist"; sourceTree = "<group>"; };
+		029E91442A4AFC9D00E4AF3B /* RussiaPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RussiaPostTests.m; sourceTree = "<group>"; };
+		029E914E2A4B07E100E4AF3B /* APICommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICommunicator.h; sourceTree = "<group>"; };
+		029E914F2A4B07E100E4AF3B /* APICommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICommunicator.m; sourceTree = "<group>"; };
+		029E91512A4B095200E4AF3B /* TrackingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingsController.h; sourceTree = "<group>"; };
+		029E91522A4B095200E4AF3B /* TrackingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingsController.m; sourceTree = "<group>"; };
+		029E91552A4B162700E4AF3B /* PackageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageCell.h; sourceTree = "<group>"; };
+		029E91562A4B162700E4AF3B /* PackageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageCell.m; sourceTree = "<group>"; };
+		029E91582A4B16A100E4AF3B /* PackageTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageTitleCell.h; sourceTree = "<group>"; };
+		029E91592A4B16A100E4AF3B /* PackageTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageTitleCell.m; sourceTree = "<group>"; };
+		029E915B2A4B16C900E4AF3B /* PackageMovingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageMovingCell.h; sourceTree = "<group>"; };
+		029E915C2A4B16C900E4AF3B /* PackageMovingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageMovingCell.m; sourceTree = "<group>"; };
+		029E915E2A4B171500E4AF3B /* PackageInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageInfoCell.h; sourceTree = "<group>"; };
+		029E915F2A4B171500E4AF3B /* PackageInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageInfoCell.m; sourceTree = "<group>"; };
+		029E91612A4B175800E4AF3B /* PackageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageController.h; sourceTree = "<group>"; };
+		029E91622A4B175800E4AF3B /* PackageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageController.m; sourceTree = "<group>"; };
+		029E916C2A4B6CD300E4AF3B /* BarcodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeController.h; sourceTree = "<group>"; };
+		029E916D2A4B6CD300E4AF3B /* BarcodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeController.m; sourceTree = "<group>"; };
+		029E91722A4B9B7000E4AF3B /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		029E91732A4B9B7000E4AF3B /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		029E91752A4B9CE500E4AF3B /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		029E91762A4B9CE500E4AF3B /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		029E91782A4BA04700E4AF3B /* sveta_kakala.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sveta_kakala.mp4; path = ../sveta_kakala.mp4; sourceTree = SOURCE_ROOT; };
+		029E91792A4BA37A00E4AF3B /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		029E917A2A4BA37A00E4AF3B /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		029E917E2A4BAA9B00E4AF3B /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029E91102A4AFC9D00E4AF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E91192A4AFC9D00E4AF3B /* CoreGraphics.framework in Frameworks */,
+				029E911B2A4AFC9D00E4AF3B /* UIKit.framework in Frameworks */,
+				029E91172A4AFC9D00E4AF3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029E91342A4AFC9D00E4AF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E91392A4AFC9D00E4AF3B /* XCTest.framework in Frameworks */,
+				029E913B2A4AFC9D00E4AF3B /* UIKit.framework in Frameworks */,
+				029E913A2A4AFC9D00E4AF3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029E910A2A4AFC9D00E4AF3B = {
+			isa = PBXGroup;
+			children = (
+				029E911C2A4AFC9D00E4AF3B /* RussiaPost */,
+				029E913E2A4AFC9D00E4AF3B /* RussiaPostTests */,
+				029E91152A4AFC9D00E4AF3B /* Frameworks */,
+				029E91142A4AFC9D00E4AF3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		029E91142A4AFC9D00E4AF3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029E91132A4AFC9D00E4AF3B /* RussiaPost.app */,
+				029E91372A4AFC9D00E4AF3B /* RussiaPostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029E91152A4AFC9D00E4AF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				029E91162A4AFC9D00E4AF3B /* Foundation.framework */,
+				029E91182A4AFC9D00E4AF3B /* CoreGraphics.framework */,
+				029E911A2A4AFC9D00E4AF3B /* UIKit.framework */,
+				029E91382A4AFC9D00E4AF3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		029E911C2A4AFC9D00E4AF3B /* RussiaPost */ = {
+			isa = PBXGroup;
+			children = (
+				029E91642A4B175C00E4AF3B /* Cells */,
+				029E91652A4B177200E4AF3B /* Views */,
+				029E91252A4AFC9D00E4AF3B /* AppDelegate.h */,
+				029E91262A4AFC9D00E4AF3B /* AppDelegate.m */,
+				029E917D2A4BAA9B00E4AF3B /* Main.storyboard */,
+				029E914E2A4B07E100E4AF3B /* APICommunicator.h */,
+				029E914F2A4B07E100E4AF3B /* APICommunicator.m */,
+				029E91312A4AFC9D00E4AF3B /* Images.xcassets */,
+				029E911D2A4AFC9D00E4AF3B /* Supporting Files */,
+			);
+			path = RussiaPost;
+			sourceTree = "<group>";
+		};
+		029E911D2A4AFC9D00E4AF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02736F8E2A4C798E006B4197 /* Base64.h */,
+				02736F8F2A4C798E006B4197 /* Base64.m */,
+				029E91782A4BA04700E4AF3B /* sveta_kakala.mp4 */,
+				029E911E2A4AFC9D00E4AF3B /* RussiaPost-Info.plist */,
+				029E91222A4AFC9D00E4AF3B /* main.m */,
+				029E91242A4AFC9D00E4AF3B /* RussiaPost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		029E913E2A4AFC9D00E4AF3B /* RussiaPostTests */ = {
+			isa = PBXGroup;
+			children = (
+				029E91442A4AFC9D00E4AF3B /* RussiaPostTests.m */,
+				029E913F2A4AFC9D00E4AF3B /* Supporting Files */,
+			);
+			path = RussiaPostTests;
+			sourceTree = "<group>";
+		};
+		029E913F2A4AFC9D00E4AF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				029E91402A4AFC9D00E4AF3B /* RussiaPostTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		029E91642A4B175C00E4AF3B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				029E915F2A4B171500E4AF3B /* PackageInfoCell.m */,
+				029E915C2A4B16C900E4AF3B /* PackageMovingCell.m */,
+				029E91592A4B16A100E4AF3B /* PackageTitleCell.m */,
+				029E91562A4B162700E4AF3B /* PackageCell.m */,
+				029E91552A4B162700E4AF3B /* PackageCell.h */,
+				029E91582A4B16A100E4AF3B /* PackageTitleCell.h */,
+				029E915B2A4B16C900E4AF3B /* PackageMovingCell.h */,
+				029E915E2A4B171500E4AF3B /* PackageInfoCell.h */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		029E91652A4B177200E4AF3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				029E916C2A4B6CD300E4AF3B /* BarcodeController.h */,
+				029E916D2A4B6CD300E4AF3B /* BarcodeController.m */,
+				029E91612A4B175800E4AF3B /* PackageController.h */,
+				029E91622A4B175800E4AF3B /* PackageController.m */,
+				029E91512A4B095200E4AF3B /* TrackingsController.h */,
+				029E91522A4B095200E4AF3B /* TrackingsController.m */,
+				029E91722A4B9B7000E4AF3B /* SettingsController.h */,
+				029E91732A4B9B7000E4AF3B /* SettingsController.m */,
+				029E91752A4B9CE500E4AF3B /* MenuController.h */,
+				029E91762A4B9CE500E4AF3B /* MenuController.m */,
+				029E91792A4BA37A00E4AF3B /* AboutController.h */,
+				029E917A2A4BA37A00E4AF3B /* AboutController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		029E91122A4AFC9D00E4AF3B /* RussiaPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029E91482A4AFC9D00E4AF3B /* Build configuration list for PBXNativeTarget "RussiaPost" */;
+			buildPhases = (
+				029E910F2A4AFC9D00E4AF3B /* Sources */,
+				029E91102A4AFC9D00E4AF3B /* Frameworks */,
+				029E91112A4AFC9D00E4AF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussiaPost;
+			productName = RussiaPost;
+			productReference = 029E91132A4AFC9D00E4AF3B /* RussiaPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029E91362A4AFC9D00E4AF3B /* RussiaPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029E914B2A4AFC9D00E4AF3B /* Build configuration list for PBXNativeTarget "RussiaPostTests" */;
+			buildPhases = (
+				029E91332A4AFC9D00E4AF3B /* Sources */,
+				029E91342A4AFC9D00E4AF3B /* Frameworks */,
+				029E91352A4AFC9D00E4AF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029E913D2A4AFC9D00E4AF3B /* PBXTargetDependency */,
+			);
+			name = RussiaPostTests;
+			productName = RussiaPostTests;
+			productReference = 029E91372A4AFC9D00E4AF3B /* RussiaPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029E910B2A4AFC9D00E4AF3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Miles Prower";
+				TargetAttributes = {
+					029E91362A4AFC9D00E4AF3B = {
+						TestTargetID = 029E91122A4AFC9D00E4AF3B;
+					};
+				};
+			};
+			buildConfigurationList = 029E910E2A4AFC9D00E4AF3B /* Build configuration list for PBXProject "RussiaPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 029E910A2A4AFC9D00E4AF3B;
+			productRefGroup = 029E91142A4AFC9D00E4AF3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				029E91122A4AFC9D00E4AF3B /* RussiaPost */,
+				029E91362A4AFC9D00E4AF3B /* RussiaPostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029E91112A4AFC9D00E4AF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E917F2A4BAA9B00E4AF3B /* Main.storyboard in Resources */,
+				029E91322A4AFC9D00E4AF3B /* Images.xcassets in Resources */,
+				029E917C2A4BA6BE00E4AF3B /* sveta_kakala.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029E91352A4AFC9D00E4AF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029E910F2A4AFC9D00E4AF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02736F902A4C798E006B4197 /* Base64.m in Sources */,
+				029E91742A4B9B7000E4AF3B /* SettingsController.m in Sources */,
+				029E91502A4B07E100E4AF3B /* APICommunicator.m in Sources */,
+				029E91272A4AFC9D00E4AF3B /* AppDelegate.m in Sources */,
+				029E91532A4B095200E4AF3B /* TrackingsController.m in Sources */,
+				029E91632A4B175800E4AF3B /* PackageController.m in Sources */,
+				029E915D2A4B16C900E4AF3B /* PackageMovingCell.m in Sources */,
+				029E91602A4B171500E4AF3B /* PackageInfoCell.m in Sources */,
+				029E916E2A4B6CD300E4AF3B /* BarcodeController.m in Sources */,
+				029E91772A4B9CE500E4AF3B /* MenuController.m in Sources */,
+				029E91232A4AFC9D00E4AF3B /* main.m in Sources */,
+				029E91572A4B162700E4AF3B /* PackageCell.m in Sources */,
+				029E915A2A4B16A100E4AF3B /* PackageTitleCell.m in Sources */,
+				029E917B2A4BA37A00E4AF3B /* AboutController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029E91332A4AFC9D00E4AF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E91452A4AFC9D00E4AF3B /* RussiaPostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029E913D2A4AFC9D00E4AF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029E91122A4AFC9D00E4AF3B /* RussiaPost */;
+			targetProxy = 029E913C2A4AFC9D00E4AF3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		029E917D2A4BAA9B00E4AF3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029E917E2A4BAA9B00E4AF3B /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029E91462A4AFC9D00E4AF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		029E91472A4AFC9D00E4AF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029E91492A4AFC9D00E4AF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RussiaPost/RussiaPost-Prefix.pch";
+				INFOPLIST_FILE = "RussiaPost/RussiaPost-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		029E914A2A4AFC9D00E4AF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RussiaPost/RussiaPost-Prefix.pch";
+				INFOPLIST_FILE = "RussiaPost/RussiaPost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		029E914C2A4AFC9D00E4AF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RussiaPost.app/RussiaPost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RussiaPost/RussiaPost-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RussiaPostTests/RussiaPostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		029E914D2A4AFC9D00E4AF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RussiaPost.app/RussiaPost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RussiaPost/RussiaPost-Prefix.pch";
+				INFOPLIST_FILE = "RussiaPostTests/RussiaPostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029E910E2A4AFC9D00E4AF3B /* Build configuration list for PBXProject "RussiaPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029E91462A4AFC9D00E4AF3B /* Debug */,
+				029E91472A4AFC9D00E4AF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029E91482A4AFC9D00E4AF3B /* Build configuration list for PBXNativeTarget "RussiaPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029E91492A4AFC9D00E4AF3B /* Debug */,
+				029E914A2A4AFC9D00E4AF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029E914B2A4AFC9D00E4AF3B /* Build configuration list for PBXNativeTarget "RussiaPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029E914C2A4AFC9D00E4AF3B /* Debug */,
+				029E914D2A4AFC9D00E4AF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029E910B2A4AFC9D00E4AF3B /* Project object */;
+}
