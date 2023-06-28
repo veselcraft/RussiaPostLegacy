@@ -14,6 +14,8 @@
     int count;
 }
 
+@property (weak, nonatomic) IBOutlet UILabel *AboutLabel;
+
 @end
 
 @implementation AboutController
@@ -30,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    AboutLabel.text = [NSBundle ]
 }
 
 - (IBAction)SecretButtonPressed:(id)sender {

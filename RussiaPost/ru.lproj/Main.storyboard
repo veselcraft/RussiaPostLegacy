@@ -450,6 +450,13 @@
                                     <action selector="SecretButtonPressed:" destination="jGk-rr-uAE" eventType="touchUpInside" id="kN3-lk-Wnm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uf2-H7-Unj">
+                                <rect key="frame" x="218" y="100" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -469,6 +476,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="О программе" id="ycG-h0-Pl3"/>
+                    <connections>
+                        <outlet property="AboutLabel" destination="Uf2-H7-Unj" id="GQX-fn-UHL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NE4-1Z-xAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
