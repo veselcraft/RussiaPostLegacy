@@ -32,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    AboutLabel.text = [NSBundle ]
+    self.AboutLabel.text = [[NSBundle mainBundle] objectForInfoDictionaryKey: @"CFBundleShortVersionString"];
 }
 
 - (IBAction)SecretButtonPressed:(id)sender {
