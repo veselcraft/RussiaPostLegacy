@@ -123,11 +123,11 @@
         
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         [formatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ"];
-        [formatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"ru"]];
         NSDate *date = [formatter dateFromString:[CurrentPackagePlace objectForKey:@"date"]];
         
         NSDateFormatter *humanReadable = [[NSDateFormatter alloc] init];
         [humanReadable setDateFormat:@"yyyy"];
+        [humanReadable setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"ru"]];
         if ([[humanReadable stringFromDate:date] isEqualToString:[humanReadable stringFromDate:[NSDate new]]])
         {
             [humanReadable setDateFormat:@"d MMMM, HH:mm"];
