@@ -7,6 +7,7 @@
 //
 
 #import "SettingsController.h"
+#import "APICommunicator.h"
 
 @interface SettingsController ()
 @property (weak, nonatomic) IBOutlet UISwitch *UpdateDataOnStartupSwitch;
@@ -38,6 +39,19 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if (indexPath.row == 1) {
+        UILocalNotification *notif = [[UILocalNotification alloc] init];
+        notif.fireDate = [NSDate dateWithTimeIntervalSinceNow:2];
+        notif.alertBody = @"Сертификаты необходимы в случае, если с приложением возникают проблемы. Например, выводится ошибка о якобы несуществующем трек-номере.";
+        notif.timeZone = [NSTimeZone defaultTimeZone];
+        [[UIApplication sharedApplication] scheduleLocalNotification:notif];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://cydia.invoxiplaygames.uk/certificates/"]];
+    }
 }
 
 
