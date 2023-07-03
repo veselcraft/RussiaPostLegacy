@@ -201,7 +201,7 @@
             break;
             
         case 2:
-            return textSize.size.height + 18;
+            return textSize.size.height + 24;
             break;
             
         default:
