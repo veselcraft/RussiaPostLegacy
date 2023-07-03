@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3BBBE310-72A0-4338-94D9-1B6CFB3522CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RussiaPost</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF38AE6819BF9A4F5535D938E20DDD5A1A76241E</key>
+		<string>github.com:veselcraft/RussiaPostLegacy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RussiaPost.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF38AE6819BF9A4F5535D938E20DDD5A1A76241E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:veselcraft/RussiaPostLegacy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF38AE6819BF9A4F5535D938E20DDD5A1A76241E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF38AE6819BF9A4F5535D938E20DDD5A1A76241E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RussiaPost</string>
+		</dict>
+	</array>
+</dict>
+</plist>

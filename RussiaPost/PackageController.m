@@ -114,8 +114,6 @@
         
         cell.Title.text = packageTitle;
         
-        [cell setNeedsLayout];
-        
         return cell;
     } else if (indexPath.section == 1) {
         static NSString *CellIdentifier = @"PackageMovingCell";
@@ -160,6 +158,7 @@
         PackageInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
         
         cell.TextView.text = packageDescription;
+        cell.TextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
         
         return cell;
     }
@@ -189,13 +188,20 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     PackageInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PackageInfoCell"];
+    NSDictionary *attributes = @{NSFontAttributeName : [UIFont preferredFontForTextStyle:UIFontTextStyleBody]};
+    // Hardcoded bc Obj-C sucks balls
+    CGRect textSize = [packageDescription
+                   boundingRectWithSize:CGSizeMake(cell.TextView.frame.size.width, MAXFLOAT)
+                   options:NSStringDrawingUsesLineFragmentOrigin
+                   attributes: attributes
+                   context:nil];
     switch (indexPath.section) {
         case 1:
             return 55.0;
             break;
             
         case 2:
-            return [packageDescription sizeWithFont:cell.TextView.font constrainedToSize:CGSizeMake(cell.TextView.frame.size.width, 9999) lineBreakMode:NSLineBreakByWordWrapping].height + 18;
+            return textSize.size.height + 18;
             break;
             
         default:
