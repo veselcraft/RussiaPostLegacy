@@ -154,11 +154,15 @@
         
         return cell;
     } else {
+        
+        NSLog(@"Тут хуйня?");
         static NSString *CellIdentifier = @"PackageInfoCell";
         PackageInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
         
         cell.TextView.text = packageDescription;
-        cell.TextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+        if ([UIFont respondsToSelector:@selector(preferredFontForTextStyle:)]) {
+            cell.TextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+        }
         
         return cell;
     }
@@ -187,26 +191,25 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    PackageInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PackageInfoCell"];
-    NSDictionary *attributes = @{NSFontAttributeName : [UIFont preferredFontForTextStyle:UIFontTextStyleBody]};
-    // Hardcoded bc Obj-C sucks balls
-    CGRect textSize = [packageDescription
-                   boundingRectWithSize:CGSizeMake(cell.TextView.frame.size.width, MAXFLOAT)
-                   options:NSStringDrawingUsesLineFragmentOrigin
-                   attributes: attributes
-                   context:nil];
-    switch (indexPath.section) {
-        case 1:
-            return 55.0;
-            break;
-            
-        case 2:
+    if (indexPath.section == 1) {
+        return 55.0;
+    } else if (indexPath.section == 2) {
+        PackageInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PackageInfoCell"];
+        if ([UIFont respondsToSelector:@selector(preferredFontForTextStyle:)]) {
+            NSDictionary *attributes = @{NSFontAttributeName : [UIFont preferredFontForTextStyle:UIFontTextStyleBody]};
+            // Hardcoded bc Obj-C sucks balls
+            CGRect textSize = [packageDescription
+                           boundingRectWithSize:CGSizeMake(cell.TextView.frame.size.width, MAXFLOAT)
+                           options:NSStringDrawingUsesLineFragmentOrigin
+                           attributes: attributes
+                           context:nil];
             return textSize.size.height + 24;
-            break;
-            
-        default:
-            return 44.0;
-            break;
+        } else {
+            CGFloat cellHeight = [packageDescription sizeWithFont:cell.TextView.font constrainedToSize:CGSizeMake(cell.TextView.frame.size.width, 9999) lineBreakMode:NSLineBreakByWordWrapping].height + 18;
+            return cellHeight;
+        }
+    } else {
+        return 44.0;
     }
 }
 
